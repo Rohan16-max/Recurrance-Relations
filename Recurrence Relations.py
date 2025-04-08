@@ -23,7 +23,7 @@ def myfunction2(n):
 def myfunction1(n):
     if n <= 0:
         return
-    # The loop part (O(n))
+    #  (O(n))
     for i in range(0, n + 1):
         print("Codingal")
     
@@ -37,10 +37,10 @@ def myfunction1(n):
 def myfunction2(n):
     if n <= 1:
         return
-    # This is constant time (O(1))
+    #  (O(1))
     print("Codingal")
     
-    # Recursive call (T(n - 1))
+    # Recursive calls (T(n - 1))
     myfunction2(n - 1)
 
 
